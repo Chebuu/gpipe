@@ -1,4 +1,4 @@
-gp.grep <- fucntion(x, pattern, ...){
+gp.grep <- function(x, pattern, ...){
   grep(pattern, x, ...)
 }
 
@@ -18,10 +18,10 @@ gp.regexpr <- function(text, pattern, ...){
   regexpr(pattern, text, ...)
 }
 
-gp.gregexpr <- funtion(text, pattern, ...){
+gp.gregexpr <- function(text, pattern, ...){
   gregexpr(pattern, text, ...)
 }
 
-gp.regexec <- funtion(text, pattern, ...){
-  gregexpr(pattern, text, ...)
+gp.regexec <- function(text, pattern, ...){
+  regexpr(pattern, text, ...)
 }
